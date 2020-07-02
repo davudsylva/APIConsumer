@@ -12,10 +12,13 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer.Service", "src\Consumer.Service\Consumer.Service.csproj", "{3540AB55-C528-47A5-ABA5-53CB6BBC54F2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5F551020-4F77-422D-AF6D-21243C4E577C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{18E177D1-CCBE-4DB3-833D-2080896EE58A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer.ServiceTests", "test\Consumer.ServiceTests\Consumer.ServiceTests.csproj", "{8EDCB717-6031-4291-BE72-B0691AF2253F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer.ServiceTests", "test\Consumer.ServiceTests\Consumer.ServiceTests.csproj", "{8EDCB717-6031-4291-BE72-B0691AF2253F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
